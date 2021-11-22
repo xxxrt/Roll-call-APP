@@ -1,0 +1,9 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}"><view slot="backText">返回</view><view slot="content">点名记录</view></cu-custom>
+
+<view  wx:for="{{list}}" wx:key="item.list">
+	<navigator url="/pages/mdlist/mdlist?id={{item._id}}" class="cu-bar bg-white margin-top">
+	<view class="action">{{index+1}}
+		<text class="cuIcon-title text-blue"></text>{{item.shijian}}
+	</view>
+		</navigator>
+</view>

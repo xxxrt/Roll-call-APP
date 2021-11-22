@@ -1,0 +1,79 @@
+/* pages/home/home.wxss */
+page
+{
+    background: linear-gradient(#4990e2,#87c1f1);
+} 
+.header{width: auto;height:130px;}
+.tuwen{display: flex;flex-direction: row;margin-left: 20rpx;}
+.wenzi2{font-size: 40rpx;margin-left: 150rpx;display: flex;flex-direction: column;color: white;padding:80rpx;}
+.text2{font-size: 40rpx;word-break: break-all;display: flex;color: white;}
+
+.button1{
+    
+    height: 150rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option{
+    margin-right: 30rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.usingOp{
+    margin-left: 100rpx;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+
+.firstDiv{
+    margin-left: 100rpx;
+    margin-right: 100rpx;
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.view{
+    box-shadow: 6rpx 6rpx 6rpx 6rpx rgba(85, 85, 85, 0.10);
+    border: 3rpx solid #BBBBBE;
+   border-radius: 10rpx;   
+}
+
+.secondDiv{
+    margin-left: 100rpx;
+    margin-right: 100rpx;
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.thirdDiv{
+    margin-left: 100rpx;
+    margin-right: 100rpx;
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.option1{
+    margin-left: 30rpx;
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.usingOp1{
+    margin-right: 70rpx;
+    font-weight: bold;
+    font-size: 40rpx;
+}
+
+.gifwave{
+    position: absolute;
+    width: 200%;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    mix-blend-mode: screen;  
+    height: 300rpx;  
+}
+

@@ -1,0 +1,14 @@
+<cu-custom bgColor="bg-gradual-blue" isBack="{{true}}">
+	<view slot="backText">返回</view>
+	<view slot="content">请点名</view>
+</cu-custom>
+
+
+
+<view class="grid col-3 padding-sm">
+	<view wx:for="{{list}}" class="padding-xs" wx:key="{{index}}">
+		<button class="cu-btn blue lg block {{item.checked?'bg-blue':'line-black'}}" style="width: 200rpx;" bindtap="ChooseCheckbox" data-value="{{item.ID}}"> {{item.name}}
+		</button>
+	</view>
+</view>
+<view class='navigator-2' hoverClass="navigator-hover" bindtap="confirm">提交</view>

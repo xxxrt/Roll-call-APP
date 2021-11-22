@@ -1,0 +1,35 @@
+<!--pages/home/home.wxml-->
+<view class="header bg-gradual-blue">
+   <view class=" tuwen">
+     <image  src="/images/main-1.png" style="width: 169rpx; position: relative; left: 26rpx; top: 68rpx; height: 174rpx; display: block; box-sizing: border-box" mode="widthFix" ></image>
+     <view class="wenzi2"> 
+       <text  style="position: relative; left: -101rpx; top: 47rpx">欢迎使用</text>
+       <text class="text2" style="width: 235rpx; height: 113rpx; display: flex; box-sizing: border-box; position: relative; left: -129rpx; top: 47rpx">点名小程序</text>
+       </view>    
+   </view>
+</view>
+<view class=" bg-gradual-blue firstDiv view"> 
+        <view class="button1" bindtap="todaoru">
+          <text class="usingOp" space="ensp">导入excel </text>
+            <image class="option" src="../../images/main-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
+        </view>        
+</view>
+<view class=" bg-gradual-blue secondDiv view">
+  <view class="button1"  bindtap="todianmin">       
+            <image class="option1" src="../../images/main-3.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" /> 
+            <text class="usingOp1" space="ensp">开始点名</text>     
+        </view>     
+</view>
+
+<view class="bg-gradual-blue thirdDiv view">
+  <view class="button1"  bindtap="todmlist">
+          <text class="usingOp" space="ensp">点名记录</text>
+            <image class="option" src="../../images/main-4.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />      
+        </view>     
+</view>
+
+ <image class="gifwave" src="/images/wave.gif" mode="scaleToFill" ></image> 
+
+ 
+
+

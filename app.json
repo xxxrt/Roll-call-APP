@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/about/about",
+    "pages/update/update",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tiaozhuan/tiaozhuan",
+    "pages/dianmin/dianmin",
+    "pages/dmlist/dmlist",
+    "pages/mdlist/mdlist"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#427BEE",
+    "navigationBarTitleText": "点名小程序",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3388EE",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+       "iconPath": "images/home1.png",
+       "selectedIconPath": "images/home.png"
+    },
+    {"pagePath": "pages/about/about",
+      "text": "我的",
+      "iconPath": "images/me1.png",
+      "selectedIconPath": "images/me.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}
