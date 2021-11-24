@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "签到记录",
   "enablePullDownRefresh": true,
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationStyle": "custom"
 }

@@ -1,0 +1,14 @@
+/* pages/multiCharts/index.wxss */
+ec-canvas {
+  width: 800rpx;
+  height: 500rpx;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}

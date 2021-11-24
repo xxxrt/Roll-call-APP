@@ -1,1 +1,14 @@
-
+.navigator-2 {
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    background-color: #0081ff;
+    color: rgb(14, 13, 13);
+    font-size: 25rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 140rpx;
+    right: 20rpx;
+  }

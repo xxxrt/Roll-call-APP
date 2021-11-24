@@ -28,7 +28,7 @@
         </view>     
 </view>
 
- <image class="gifwave" src="/images/wave.gif" mode="scaleToFill" ></image> 
+<image class="gifwave" src="/images/wave.gif" mode="scaleToFill" ></image> 
 
  
 

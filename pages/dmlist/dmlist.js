@@ -35,6 +35,11 @@ Page({
         })
       })
   },
+  jumpPage:function(){
+    wx.navigateTo({
+      url: '../charts/charts',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

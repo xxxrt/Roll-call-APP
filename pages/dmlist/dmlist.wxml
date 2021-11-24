@@ -7,3 +7,4 @@
 	</view>
 		</navigator>
 </view>
+<view class='navigator-2' hoverClass="navigator-hover" bindtap="jumpPage">可视化</view>
